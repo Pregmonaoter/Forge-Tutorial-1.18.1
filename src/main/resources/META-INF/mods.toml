@@ -31,7 +31,7 @@ logoFile="rainbowmod.png" #optional
 # A text field displayed in the mod UI
 credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
-authors="Blake T" #optional
+authors="Blake" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 This is a long form description of the mod. You can write whatever you want here
@@ -54,9 +54,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
     side="BOTH"
 # Here's another dependency
 [[dependencies.rainbowmod]]
-    modId="minecraft"
+    modId="rainbowmod"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.18.1,1.19.2)"
+    versionRange="[1.18.1,1.19)"
     ordering="NONE"
     side="BOTH"
